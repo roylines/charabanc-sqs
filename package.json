@@ -23,8 +23,11 @@
   },
   "homepage": "https://github.com/roylines/charabanc-sqs",
   "devDependencies": {
-    "mocha": "^2.0.1",
-    "pre-commit": "0.0.9"
+    "chai": "*",
+    "charabanc": "*",
+    "mocha": "*",
+    "pre-commit": "*",
+    "sinon": "*"
   },
   "dependencies": {
     "async": "^0.9.0",
