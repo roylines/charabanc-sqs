@@ -1,0 +1,33 @@
+{
+  "name": "charabanc-sqs",
+  "version": "0.0.1",
+  "description": "SQS transport for charabanc",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roylines/charabanc-sqs.git"
+  },
+  "keywords": [
+    "charabanc",
+    "microservices",
+    "SQS",
+    "AWS"
+  ],
+  "author": "Roy Lines",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roylines/charabanc-sqs/issues"
+  },
+  "homepage": "https://github.com/roylines/charabanc-sqs",
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "pre-commit": "0.0.9"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "lodash": "^2.4.1"
+  }
+}
